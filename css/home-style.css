@@ -1,0 +1,21 @@
+body {
+	background-color: #ffdf01;
+}
+
+#main-image #img-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width:600px;
+	height:270px;
+}
+#main-image #img-display{
+	position: relative;
+	display: block;
+	background-image: url('../img/404.png');
+	background-repeat: no-repeat;
+	width:600px;
+	height:270px;
+	margin-bottom: 10px;
+}

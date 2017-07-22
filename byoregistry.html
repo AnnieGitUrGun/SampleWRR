@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Watershed Resources Registry</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="map-style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+<body>
+  <nav class="green darken-3" role="navigation">
+  <!-- Dropdown menu markup -->
+  <ul id="state-registries-dropdown" class="dropdown-content">
+    <li><a href="Delaware.html">Delaware</a></li>
+    <li><a href="#">Georgia</a></li>
+    <li><a href="#">Maryland</a></li>
+    <li><a href="#">Pennsylvania</a></li>
+    <li><a href="#">Virginia</a></li>
+    <li><a href="#">West Virginia</a></li>
+  </ul>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img class="z-depth-1" src="img/logo.png"/></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="byoregistry.html">Build Your Registry</a></li>
+        <li><a class="dropdown-button" href="#" data-activates="state-registries-dropdown">State Registries</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="whatisit.html">What is It?</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="byoregistry.html">Build Your Registry</a></li>
+        <!-- <li><a class="dropdown-button" href="#" data-activates="state-registries-dropdown">State Registries</a></li> -->
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="whatisit.html">What is It?</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot no-pad-top" id="index-banner">
+    <div class="slider-fixed-item">
+      <div class="container">
+      <br><br>
+        <h2 class="header light-blue-text">Build Your Registry</h2>
+        <div class="row s12">
+            <a href="http://staging.mesgis.com/wrr/index.html" id="download-button" class="btn-large waves-effect waves-light orange">View Map</a>
+            <a href="byoregistry.html" id="download-button" class="btn-large waves-effect waves-light orange">Start a Registry in your state</a>
+        </div>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/PoplarMosaic1.jpg">
+          <!-- random image -->
+        </li>
+        <li>
+          <img src="img/HMIMosaic.jpg">
+          <!-- random image -->
+        </li>
+        <li>
+          <img src="img/PoplarMosaic1.jpg">
+          <!-- random image -->
+        </li>
+        <li>
+          <img src="img/HMIMosaic.jpg">
+          <!-- random image -->
+        </li>
+      </ul>
+    </div>
+
+
+
+
+  </div>
+
+
+  
+    <div class="section grey lighten-3">
+<div class="container">
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12">
+          <h2>Interested in Starting a Registry in your State?</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <p class="flow-text">
+            The Watershed Resources Registry (WRR) is a transferrable framework. States can establish their own Watershed Resources Registry and be hosted on this website. For more information, contact Ralph Spagnolo at either <a href="mailto:Spagnolo.ralph@epa.gov">Spagnolo.ralph@epa.gov</a> or at (215) 814-2718.
+          </p>
+          <p class="flow-text">
+            The WRR consists of 3 essential components:
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+        <div class="card-panel green darken-3">
+          <div class="icon-block">
+            <h2 class="center white-text">
+              <i class="material-icons">location_on</i>
+            </h2>
+            <h5 class="center white-text">Identify candidate locations</h5>
+          </div>
+        </div>
+        </div> 
+        <div class="col s12 m4">
+        <div class="card-panel green darken-3">
+          <div class="icon-block">
+            <h2 class="center white-text">
+              <i class="material-icons">swap_horiz</i>
+            </h2>
+            <h5 class="center white-text">Assess and compare potential projects</h5>
+          </div>
+        </div>
+        </div> 
+        <div class="col s12 m4">
+        <div class="card-panel green darken-3">
+          <div class="icon-block">
+            <h2 class="center white-text">
+              <i class="material-icons">assignment</i>
+            </h2>
+            <h5 class="center white-text">Export data and print site maps for field visits</h5>
+          </div>
+        </div>
+        </div> 
+      </div><br><br>
+      <div class="row">
+        <div class="col s12">
+          <p class="flow-text">
+            Additional information and contact information for specific states’ Watershed Resources Registry can be found by clicking on a state. 
+          </p>
+        </div>
+        <div id="national-map" class="col s12">
+          <!-- Modal Structure -->
+          <div id="noWrr" class="modal">
+            <div class="modal-content">
+              <h4>A Watershed Resources Registry Does Not Exist...Yet</h4>
+              <p>Put some text in here telling people action they can take to start a Watershed Resources Registry.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12">
+          <br>
+          <h4>Helpful Links</h4>
+          <p class="flow-text">
+            <a href="http://aii.transportation.org/Pages/Watershed-Resources-Registry.aspx">American Association of State Highway and Transportation Officials (AASHTO)’s Innovation Initiative</a>
+          </p>
+          
+        </div>          
+      </div>
+    </div>
+
+    </div>
+    
+  </div>
+
+  <footer class="page-footer green darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l3 s12">
+          <h5 class="white-text">Our Partners</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Anne Canoune</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+  <script src="map.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $(".dropdown-button").dropdown({hover:true});
+      $('.modal').modal();
+      $('.slider').slider({
+          indicators: false,
+          transition: 6000,
+          interval: 7000
+      });
+    }); 
+  </script>
+  </body>
+</html>
